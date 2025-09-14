@@ -122,7 +122,6 @@ export default function LoginClient() {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full rounded-xl border border-neutral-200 bg-white/80 px-4 py-3 text-neutral-900 placeholder:text-neutral-400 shadow-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-500/40"
-                        required
                       />
                     </div>
 
@@ -141,8 +140,6 @@ export default function LoginClient() {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         className="w-full rounded-xl border border-neutral-200 bg-white/80 px-4 py-3 text-neutral-900 placeholder:text-neutral-400 shadow-sm outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-500/40"
-                        minLength={5}
-                        required
                       />
                     </div>
 
